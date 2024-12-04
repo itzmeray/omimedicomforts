@@ -1,0 +1,135 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container a {
+    display: block;
+  }
+  
+  .logo-img {
+    height: 80px;
+    width: auto;
+  }
+  
+  nav {
+    flex-grow: 1;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: #66b2ff;
+  }
+  
+  /* About Us Section */
+  .about-us {
+    padding: 100px 20px;
+    background-color: #ffffff;
+    text-align: left;  /* Align text to left */
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    color: #003366;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Product Title Style */
+  .product-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #003366;
+    text-decoration: underline;
+    margin-bottom: 10px;
+  }
+  
+  .product-list {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .product-list li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content .contact-info p,
+  .footer-content .address p {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    color: #66b2ff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #ffffff;
+  }
+  
+  .location a {
+    color: #66b2ff;
+    text-decoration: none;
+  }
+  
+  .location a:hover {
+    text-decoration: underline;
+  }
+  
